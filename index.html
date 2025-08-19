@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App with API</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>API Quiz</h1>
+    <div id="quiz">
+      <div class="progress">
+        <div id="progress-bar"></div>
+      </div>
+      <div id="timer">Time Left: <span id="time">15</span>s</div>
+      <div id="question"></div>
+      <ul id="options"></ul>
+      <button id="nextBtn" disabled>Next</button>
+    </div>
+    <div id="result" class="hidden">
+      <h2>Quiz Completed!</h2>
+      <p>Your Score: <span id="score"></span></p>
+      <button id="restartBtn">Restart Quiz</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
